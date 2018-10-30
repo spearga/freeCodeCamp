@@ -3,13 +3,12 @@ title: Methods
 ---
 ## Methods
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/mathematics/area-of-a-parallelogram/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A method is used so that it can be called by the program when initiated. each method will begin with def
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
-
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
-
+    def greater_than_1(n)
+        return n>1
+        
+    >>> greater_than_1(2)
+    ... True
+      
 
